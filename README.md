@@ -1,13 +1,29 @@
-# Anaysis of Kickstarter Campaigns
+# Kickstarting with Excel
 
-In the United States theater seems to be the most successful type of campaign in both the amount launched and the amount that succeed. 
-![Parent Category Outcomes](https://user-images.githubusercontent.com/88564212/132047877-e06775a2-1c9b-4e66-8d07-d3281595bc94.png)
+## Overview of Project
 
-The key components of a successful play's Kickstarter campaigns are as follows:
+### Purpose
+The purpose of the analsysis is to analyze campaign outcomes when compared against their launch date and funding goals. 
 
-Plays that kicked off their campaigns in May and June had the most success in getting funded. Campaigns kicking off in Dec/Jan seemed to have the worst luck. 
-![Outcomes Based of Launch Date](https://user-images.githubusercontent.com/88564212/132046903-55d84bb4-6542-4cf1-b102-d08e454b9e26.png)
+## Analysis
+The two primary points of interest are the success rates of campaigns when compared against funding goals and launch dates. To do this we used data from Kickstarter that had information from various projects. This information included start dates, requested funding, if they achieved their goal, and much more. 
 
-The other main factor seemed to be the amount of funding requested. The mean goal for a successfully funded play was $5,049. Musicals in Great Britain saw the mean goal being around €4000.
+### Analysis of Outcomes Based on Launch Dates
+Thearter campaigns  launched in May and June generally had the highest rates of success. Plays launched late in the year seemed to have the lowest chance of getting funded. 
+![Theater_Outcome_vs_Launch](https://user-images.githubusercontent.com/88564212/132101875-d6968c56-e2a4-4c9e-8151-90005944345c.png)
 
-Using this data, the main recommendations would be to try to ensure this this campaign is launched by May or June. It would also be advisable to look into lowering the funding goals of both plays to around $5000 and €2000 respectively as these are the funding goals that saw the most success.  
+### Analysis of Outcomes Based on Goals
+Theater endeavors with funding goals of $5000 and below seemed the most success with being funded. There was an uptick of success rates in the $35,000 to $40,000 range, but these were primarily theater spaces to be built rather than actual plays. 
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/88564212/132102563-17101974-4d54-4e65-8ac6-b64ebfe64b1a.png)
+
+### Challenges and Difficulties Encountered
+The main challenges of this process were efficently copying formulas. Since many of items referenced the same cells, but looked for different information copying these would create a lot of manual work. I was able to make this process much faster using [absolute references](https://exceljet.net/glossary/absolute-reference). 
+
+## Results
+- Based off the results above, it would appear the best time to launch would be in either May or June. If those two months are not workable, October through December would be the months that would have the least chance of success. 
+
+- Launching with an asking price at or beloew $5000 will have the most chance of success, while 15000 and above will have the least likely chance of being funded. 
+
+- One potential graph idea would be to compare outcomes against the years they were launched to see if the overall success or failure has trended one way or the other over the years. This could be used to determine the long term viability of using Kickstarter as an option. 
+
+- Another idea would be to determine the correlation with success/funding exceeding the goal against staff picks and spotlights. This can be used to determine how much of a windfall could be received if the project gets either of these boosts. 
